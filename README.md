@@ -1,2 +1,2 @@
 # configure-in-ubuntu
-nope
+see config.md
