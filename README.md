@@ -1,2 +1,2 @@
 # configure-in-ubuntu
-see config.md
+see configure.md
