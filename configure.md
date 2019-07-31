@@ -9,7 +9,7 @@ Copyright © 2018 FortiSTray_Action. All Rights Reserved.
 ##### Change Ubuntu source to tuna
 
 ```bash
-sudo nano /etc/apt/sources.list
+sudo gedit /etc/apt/sources.list
 ```
 
 Replace all contains to follows
@@ -120,7 +120,7 @@ Download `.deb` file from official website
 
 ```bash
 sudo dpkg -i sogoupinyin_2.2.0.0108_amd64.deb
-sudo install -f
+sudo apt install -f
 ```
 
 Set `System Settings > Language Support > Keyboard input method system = fcitx`
@@ -141,7 +141,7 @@ Download `.deb` file from official website
 
 ```bash
 sudo dpkg -i code_1.29.1-1542309157_amd64.deb
-sudo install -f
+sudo apt install -f
 ```
 
 
