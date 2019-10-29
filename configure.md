@@ -4,7 +4,7 @@ Copyright © 2018 FortiSTray_Action. All Rights Reserved.
 
 ---
 #### How to install ubuntu alongside Windows
-#####Refer to this article to assign disks
+##### Refer to this article to assign disks
 https://blog.csdn.net/flyyufenfei/article/details/79187656
 
 
