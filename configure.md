@@ -31,19 +31,19 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security main restricted
 ```
 
 ```bash
-sudo apt update && sudo apt upgrade && sudo apt dist-upgrade
+sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
 ```
 
 ##### Install Git
 
 ```bash
-sudo apt install git
+sudo apt-get install git
 ```
 
 ##### Install CMake
 
 ```bash
-sudo apt install cmake
+sudo apt-get install cmake
 ```
 
 #### Install librealsense (v2.16.1)
@@ -111,7 +111,7 @@ sudo apt install cmake
 ##### Install chromium
 
 ```bash
-sudo apt install chromium-browser
+sudo apt-get install chromium-browser
 ```
 
 ##### Install Sogou Pinyin input method
@@ -120,7 +120,7 @@ Download `.deb` file from official website
 
 ```bash
 sudo dpkg -i sogoupinyin_2.2.0.0108_amd64.deb
-sudo apt install -f
+sudo apt-get install -f
 ```
 
 Set `System Settings > Language Support > Keyboard input method system = fcitx`
@@ -141,7 +141,7 @@ Download `.deb` file from official website
 
 ```bash
 sudo dpkg -i code_1.29.1-1542309157_amd64.deb
-sudo apt install -f
+sudo apt-get install -f
 ```
 
 
