@@ -3,7 +3,8 @@
 Copyright © 2018 FortiSTray_Action. All Rights Reserved.
 
 ---
-
+### How to install ubuntu alongside Windows
+https://blog.csdn.net/flyyufenfei/article/details/79187656
 #### Preparation before installing libraries
 
 ##### Change Ubuntu source to tuna
