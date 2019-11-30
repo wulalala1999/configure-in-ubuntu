@@ -35,7 +35,7 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security main restricted
 ```
 
 ```bash
-sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
+sudo apt-get update && sudo apt-get upgrade 
 ```
 
 ##### Install Git
@@ -105,7 +105,7 @@ sudo apt-get install cmake
   sudo apt-get install build-essential
   sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
   mkdir build && cd build
-  cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules ..
+  cmake -DCMAKE_BUILD_TYPE=Release ..
   make -j8
   sudo make install
   ```
@@ -144,10 +144,13 @@ Log out &  Log in
 Download `.deb` file from official website
 
 ```bash
+sudo apt-get install -f
 sudo dpkg -i code_1.29.1-1542309157_amd64.deb
+```
+##### Resolve dependencies
+```bash
 sudo apt-get install -f
 ```
-
 
 
 
